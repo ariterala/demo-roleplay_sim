@@ -9,7 +9,9 @@
       "Bash(pnpm lint:*)",
       "Bash(pnpm exec:*)",
       "Bash(pnpm install:*)",
-      "Bash(pnpm format:*)"
+      "Bash(pnpm format:*)",
+      "Bash(npx @biomejs/biome check --error-on-warnings src)",
+      "Bash(npx supabase *)"
     ]
   }
 }
